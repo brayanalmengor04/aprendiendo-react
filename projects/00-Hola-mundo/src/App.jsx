@@ -95,7 +95,6 @@ export function App(){
             </TwitterFollowCard>
 
             <TwitterFollowCard 
-             isFollowing={false}
              username="Aabj_tecno"
              >
                 Brayan Antonio
