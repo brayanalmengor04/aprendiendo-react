@@ -86,7 +86,7 @@ export function App(){
      // Pasamos la funcion que agrega el arroba a el username ...
   // const formatUsernames = (username) => `@${username}`;   
    // const formatedUsername = <span>@{userName}</span>;
-    //const brayanAlmengor = {isFollowing:true, username:"Aabj_cx0440"};
+    const brayanAlmengor = {isFollowing:true, username:"Aabj_cx0440"};
    return (  
         <section className='App'> 
             <TwitterFollowCard {...brayanAlmengor}
@@ -97,7 +97,9 @@ export function App(){
             <TwitterFollowCard 
              isFollowing={false}
              username="Aabj_tecno"
-             name="Brayan Antonio" />
+             >
+                Brayan Antonio
+             </TwitterFollowCard>
         </section>
 
    )
